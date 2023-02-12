@@ -1,6 +1,6 @@
 rm -rf ~/.cairo_venv
 
-python3.9 -m venv ~/.cairo_venv
+python3 -m venv ~/.cairo_venv
 source ~/.cairo_venv/bin/activate
 
 pip3 install ecdsa fastecdsa sympy cairo-lang
